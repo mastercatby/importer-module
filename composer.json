@@ -1,0 +1,16 @@
+{
+    "name": "mastercat/importer",
+    "type": "laravel-module",
+    "autoload": {
+        "psr-4": {
+            "Mastercat\\Importer\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "mastercatby",
+            "email": "mastercatby@gmail.com"
+        }
+    ],
+    "require": {}
+}
