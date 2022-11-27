@@ -9,3 +9,5 @@ $router->name('importers.')->group(function () use ($router, $NS) {
 });
 
 $router->resource('importers', $NS.'ImporterController');
+
+$router->get('/', $NS.'ImporterController@index');
